@@ -1,0 +1,72 @@
+/* coloring brand name in green */
+.navbar-brand {
+  color: green !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* styling trash, heart, plus and minus icons */
+i {
+  font-size: 35px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  padding: 3%;
+  margin: 50px 0;
+}
+.total-price span {
+  font-size: 30px;
+}
+/* changing font weight of total price */
+.total {
+  font-weight: bold;
+}
+/* aligning product cards side by side and centered */
+.list-products {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 70%;
+}
+.card {
+  padding: 5%;
+}
+/* aligning crad items vertically and in center*/
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* adjusting font size of products quantity  */
+.quantity {
+  font-size: 25px;
+}
+/* aligning card divs in center */
+.card-body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+/* changing trash icon colour */
+.fa-trash-alt {
+  color: #de6b5c;
+}
